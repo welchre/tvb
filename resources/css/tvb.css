@@ -1,0 +1,42 @@
+/**
+TABLE OF CONTENTS
+
+1- General
+2- Navbar
+**/
+
+/**
+START: 1- General
+**/
+body {
+    padding-top: 50px;}
+/**
+END: 1- General
+**/
+
+/**
+START: 2- Navbar
+**/
+.navbar-inverse {
+    background-color: #6e0002;}
+
+.navbar-brand{
+    background: transparent url('../images/twistedvine-image002-124x094.jpg') scroll no-repeat 0 -77px;
+    padding-left: 85px;}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFC;}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #6e0002;
+    background-color: #FFC;}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color: #6e0002;
+    background-color: #FFC;}
+/**
+END: 2- Navbar
+**/
